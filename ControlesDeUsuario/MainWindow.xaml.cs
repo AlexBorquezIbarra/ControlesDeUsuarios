@@ -31,7 +31,28 @@ namespace ControlesDeUsuario
             switch(cbFigura.SelectedIndex)
             {
                 case 0: // Circulo
+
                     grdParametrosFigura.Children.Add(new ParametroCirculo());
+
+                    break;
+                case 1: // Triangulo
+
+                    grdParametrosFigura.Children.Add(new ParametroTriangulo());
+
+                    break;
+                case 3: //Cuadrado
+
+                    grdParametrosFigura.Children.Add(new ParametroCuadrado());
+
+                    break;
+                case 4: //Pentagono
+
+                    grdParametrosFigura.Children.Add(new ParametroPentagono());
+
+                    break;
+                case 5: //Trapecio
+
+                    grdParametrosFigura.Children.Add(new ParametroTrapecio());
 
                     break;
                 default:

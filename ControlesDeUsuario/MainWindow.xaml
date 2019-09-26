@@ -18,6 +18,8 @@
             <ComboBoxItem>Circulo</ComboBoxItem>
             <ComboBoxItem>Triangulo</ComboBoxItem>
             <ComboBoxItem>Cuadrado</ComboBoxItem>
+            <ComboBoxItem>Pentagono</ComboBoxItem>
+            <ComboBoxItem>Trapecio</ComboBoxItem>
         </ComboBox>
     </Grid>
 </Window>
